@@ -1,0 +1,43 @@
+POST http://localhost:3100/employee
+Content-Type: application/json
+
+
+{
+    "firstname": "Brock",
+    "lastname": "Lee",
+    "email": "Brocklee@fgbc.co",
+    "phone": "8888444412",
+    "job": "Martial Artist",
+    "dateofjoining": "16-06-2024",
+    "image": "amy"
+
+    
+    
+}
+###
+GET http://localhost:3100/searchemployee/Vicky
+Content-Type: application/json
+###
+GET http://localhost:3100/employee
+Content-Type: application/json
+
+###
+PUT http://localhost:3100/employee/6458fd4ae6755a5884ed13ba
+Content-Type: application/json
+
+
+{
+    "name": "Kaysan Shaikh",
+    "email": "shaikhkaysan@gmail.com",
+    "phone": "7777777777",
+    "status": "InActive"
+}
+
+###
+
+DELETE http://localhost:3100/employee/6458fcaf72d10b1a680c7a1b
+Content-Type: application/json
+
+# {
+#     "id": "6458f9cf26c7513a3e757a57",
+# }
