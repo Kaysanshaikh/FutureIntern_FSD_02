@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = `http://localhost:3100`
+const baseURL = `https://future-intern-fsd-02.vercel.app/`
 
 export const axiosGet = (url) =>{
     return axios.get(`${baseURL}${url}`, {
